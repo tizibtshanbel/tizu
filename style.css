@@ -334,7 +334,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(https://tizibtshanbel.github.io/tizu/myphoto.png));
+        background-image: url(https://tizibtshanbel.github.io/tizu/myphoto.png);
     }
     .header-text{
         margin-top: 50%;
@@ -394,6 +394,7 @@ nav .fas{
     }
 
 }
+
 
 
 
