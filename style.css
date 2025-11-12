@@ -297,33 +297,7 @@ nav ul li a.active::after{
 }
 .contact-right form{
     width: 100%;
-}/*
-form input, form textarea{
-    width: 100%;
-    border: 0;
-    outline:none ;
-    background:#262626;
-    padding: 15px ;
-    margin:15px 0 ;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 6px;
 }
-    
-form .btn2{
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-    */
-/*
-#msg {
-    color: #61b752;
-    margin-top: 20px;
-    display: block;
-}*/
-
 
 /* ----FOOTER---- */
 .copyright {
@@ -338,19 +312,14 @@ form .btn2{
     color: #ff004f;
 }
 
-/* ========================================= */
-/* NEW STYLES FOR MULTI-PAGE  */
-/* ========================================= */
 
-/* This is the new, smaller header for all pages *except* the home page */
 #header-subpage {
     width: 100%;
     background: #080808; /* Match body background */
     border-bottom: 1px solid #262626; /* A subtle separator */
 }
 
-/* This class adds padding to the top of your content sections (like #about, #education) 
-   so they don't hide under the new header. */
+
 .page-content {
     padding-top: 80px; /* Gives space from the header */
 }
@@ -365,7 +334,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(image/shan.JPG);
+        background-image: url(https://tizibtshanbel.github.io/tizu/shan.JPG);
     }
     .header-text{
         margin-top: 50%;
@@ -425,4 +394,5 @@ nav .fas{
     }
 
 }
+
 
