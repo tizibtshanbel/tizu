@@ -1,4 +1,4 @@
-/* ----GLOBAL STYLES---- */
+
 *{
     margin: 0;
     padding: 0;
@@ -55,7 +55,7 @@ nav ul li a{
 }
 nav ul li a::after{
     content: '';
-    width: 0; /* Start with 0 width */
+    width: 0; 
     height: 3px;
     background: #ff004f;
     position: absolute;
@@ -67,7 +67,7 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
-/* ADDED: Active link styling for multi-page */
+
 nav ul li a.active{
     color: #ff004f;
 }
@@ -113,14 +113,14 @@ nav ul li a.active::after{
 
 /* ----EDUCATION---- */
 #education{
-    padding: 80px 0; /* Increased padding for better spacing */
+    padding: 80px 0; 
     width: 100%;
     
     /* ADD IMAGE STYLES */
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url( https://tizibtshanbel.github.io/tizu/school.jpg); 
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Optional: Makes the background scroll slower than the content */
+    background-attachment: fixed; 
     
     
     color: white; 
@@ -243,10 +243,10 @@ nav ul li a.active::after{
   transform: translateY(-10px); 
 }
 
-/* Styling for the document/code links */
+
 .btn-document {
     display: inline-block;
-    background: #00ffff; /* Your accent color */
+    background: #00ffff; 
     color: #080808;
     padding: 8px 15px;
     border-radius: 4px;
@@ -262,7 +262,7 @@ nav ul li a.active::after{
 }
 
 .btn-document:hover {
-    background: #ff004f; /* Hover color */
+    background: #ff004f; 
     color: white;
 }
 
@@ -315,13 +315,13 @@ nav ul li a.active::after{
 
 #header-subpage {
     width: 100%;
-    background: #080808; /* Match body background */
-    border-bottom: 1px solid #262626; /* A subtle separator */
+    background: #080808; 
+    border-bottom: 1px solid #262626; 
 }
 
 
 .page-content {
-    padding-top: 80px; /* Gives space from the header */
+    padding-top: 80px; 
 }
 
 
@@ -334,7 +334,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(https://tizibtshanbel.github.io/tizu/shan.JPG);
+        background-image: url(https://tizibtshanbel.github.io/tizu/myphoto.png));
     }
     .header-text{
         margin-top: 50%;
@@ -394,5 +394,6 @@ nav .fas{
     }
 
 }
+
 
 
