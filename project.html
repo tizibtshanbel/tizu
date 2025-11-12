@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects - Tizibt Shanbel</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+<div id="header-subpage">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="skill.html">SKILL</a></li>
+                <li><a href="project.html" class="active">PROJECT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>  
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+   </div>
+</div>
+
+<div id="project" class="page-content"> 
+    <div class="container">
+    <h1 class="sub-title">My PROJECTS</h1>
+    <div class="project-list">
+        <div>
+        <h2>Java GUI Calculator</h2>
+        <p>
+            A simple calculator application built using Java Swing for GUI design. 
+            It performs basic arithmetic operations like addition, subtraction, multiplication, and division. 
+            This project helped me learn Java programming and event handling.
+        </p>
+        <a href="document/javacalculatorr.pdf" target="_blank" class="btn-document">
+            <i class="fa-solid fa-file-pdf"></i> View Code and out put
+        </a>
+        </div>
+        <div>
+        <h2>Hotel Management System (MySQL Project)</h2>
+        <p>
+            A database project designed using MySQL to manage hotel operations such as room booking, 
+            customer details, check-in/check-out, and payments. 
+            It includes table creation, queries, transactions, and data management techniques.
+        </p>
+                <a href="document/hotelmanagmentsystem.pdf" target="_blank" class="btn-document">
+            <i class="fa-solid fa-file-pdf"></i> View Code and out put
+        </a>
+        </div>   
+    </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>Copyright © Tizibt Shanbel. Made with <i class="fa-solid fa-heart"></i></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
